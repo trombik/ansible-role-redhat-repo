@@ -1,3 +1,7 @@
+## Release 1.1.3
+
+* d95b892 [bugfix] Update rubocop to the latest (#1)
+
 ## Release 1.1.2
 
 * 8935140 [bugfix] QA (#11)
