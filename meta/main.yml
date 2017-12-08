@@ -2,7 +2,7 @@
 galaxy_info:
   author: Tomoyuki Sakurai
   description: Adds yum repositories
-  company: Reallyenglish
+  company: N/A
   license: BSD
   min_ansible_version: 2.1
   platforms:
