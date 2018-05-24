@@ -10,16 +10,17 @@ None
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| redhat\_repo | a dict of repositories (see below) | {} |
-| redhat\_repo\_extra\_packages | a list of additional packages to install | [] |
+| `redhat_repo` | a dict of repositories (see below) | {} |
+| `redhat_repo_extra_packages` | a list of additional packages to install | [] |
 
 Created by
 [yaml2readme.rb](https://gist.github.com/trombik/b2df709657c08d845b1d3b3916e592d3)
 
-## redhat\_repo
+## `redhat_repo`
 
-Key is passed to `yum` module as `name`. Value is passed as `params`. See
-Example Playbook.
+This variable is a dict of dict. The first level key is the name of
+repository. The value, which is also a dict, is key-value pair of
+parameters supported by [`yum_repository`](http://docs.ansible.com/ansible/latest/modules/yum_repository_module.html).
 
 # Dependencies
 
@@ -43,7 +44,7 @@ None
 
 # License
 
-Copyright (c) 2016 Tomoyuki Sakurai <tomoyukis@reallyenglish.com>
+Copyright (c) 2016 Tomoyuki Sakurai <y@trombik.org>
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -59,6 +60,6 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 # Author Information
 
-Tomoyuki Sakurai <tomoyukis@reallyenglish.com>
+Tomoyuki Sakurai <y@trombik.org>
 
 This README was created by [ansible-role-init](https://gist.github.com/trombik/d01e280f02c78618429e334d8e4995c0)
