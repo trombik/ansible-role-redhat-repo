@@ -1,3 +1,7 @@
+## Release 1.1.4
+
+* bbac4a2 [bugfix] hard-code all parameters supported by the module in the task (#4)
+
 ## Release 1.1.3
 
 * d95b892 [bugfix] Update rubocop to the latest (#1)
