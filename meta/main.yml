@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: redhat_repo
   author: Tomoyuki Sakurai
   description: Adds yum repositories
   company: N/A

@@ -1,3 +1,8 @@
+## Release 2.0.0
+
+* 53d470e bugfix: backward-incompatible: rename role
+* d3570ea bugfix: QA
+
 ## Release 1.1.4
 
 * bbac4a2 [bugfix] hard-code all parameters supported by the module in the task (#4)
