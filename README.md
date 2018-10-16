@@ -1,4 +1,4 @@
-# ansible-role-redhat-repo
+# ansible-role-redhat_repo
 
 Add additional yum repositories.
 
@@ -31,7 +31,7 @@ None
 ```yaml
 - hosts: localhost
   roles:
-    - ansible-role-redhat-repo
+    - ansible-role-redhat_repo
   vars:
     redhat_repo_extra_packages:
       - epel-release
