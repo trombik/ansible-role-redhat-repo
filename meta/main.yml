@@ -24,4 +24,4 @@ galaxy_info:
     - yum
 #    - installer
 #    - web
-dependencies:
+dependencies: []
