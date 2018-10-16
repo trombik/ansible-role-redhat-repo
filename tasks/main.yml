@@ -1,5 +1,5 @@
 ---
-# tasks file for ansible-role-redhat-repo
+# tasks file for ansible-role-redhat_repo
 
 - name: Install extra packages
   yum:

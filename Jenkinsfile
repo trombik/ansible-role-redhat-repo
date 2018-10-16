@@ -1,6 +1,6 @@
 node ('virtualbox') {
 
-  def directory = "ansible-role-redhat-repo"
+  def directory = "ansible-role-redhat_repo"
   env.ANSIBLE_VAULT_PASSWORD_FILE = "~/.ansible_vault_key"
   stage 'Clean up'
   deleteDir()
