@@ -3,9 +3,8 @@
 
 - name: Install extra packages
   yum:
-    name: "{{ item }}"
+    name: "{{ redhat_repo_extra_packages }}"
     state: present
-  with_items: "{{ redhat_repo_extra_packages }}"
   when: ansible_os_family == 'RedHat'
 
 - name: Install repositories
