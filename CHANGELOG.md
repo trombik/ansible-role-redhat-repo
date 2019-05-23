@@ -1,3 +1,8 @@
+## Release 2.0.1
+
+* cc90c34 bugfix: QA
+* 1ed9761 bugfix: remove loop from yum task
+
 ## Release 2.0.0
 
 * 53d470e bugfix: backward-incompatible: rename role
