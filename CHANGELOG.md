@@ -1,3 +1,8 @@
+## Release 2.0.2
+
+* e4f454e bugfix: QA
+* 5ad712c bugfix: update to 7.8
+
 ## Release 2.0.1
 
 * cc90c34 bugfix: QA
